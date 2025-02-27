@@ -41,6 +41,18 @@
 @import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/pan-animation.css');
 @import url('https://ctalvio.github.io/Monochromic/backdrop-hack_style.css');
 
+/* Style backdrop */
+.backdropImage {filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);}
+
+/* Login background */
+#loginPage {
+  background: none !important; /* Removes the image */
+}
+
+/*A ccent and rounding */
+:root {--accent: 98, 121, 205;}
+:root {--rounding: 12px;}
+
 /* Ultrachromic Theme end */
 
 /* Icons */
