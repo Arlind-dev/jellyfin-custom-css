@@ -1,3 +1,7 @@
+/* Icons */
+@import url("https://cdn.jsdelivr.net/gh/Arlind-dev/jellyfin-icon-metadata@my-instance/shoko-icon.css");
+@import url("https://cdn.jsdelivr.net/gh/Arlind-dev/jellyfin-icon-metadata@my-instance/public-icon.css");
+
 /* Ultrachromic Theme Start */
 
 /* Recommended */
@@ -54,11 +58,6 @@
 :root {--rounding: 12px;}
 
 /* Ultrachromic Theme end */
-
-/* Icons */
-@import url("https://cdn.jsdelivr.net/gh/Arlind-dev/jellyfin-icon-metadata@my-instance/shoko-icon.css");
-@import url("https://cdn.jsdelivr.net/gh/Arlind-dev/jellyfin-icon-metadata@my-instance/public-icon.css");
-
 /* Hide Favorites tab */
 .btnUserRating {
   display: none;
