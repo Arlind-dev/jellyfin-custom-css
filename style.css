@@ -2,62 +2,10 @@
 @import url("https://cdn.jsdelivr.net/gh/Arlind-dev/jellyfin-icon-metadata@my-instance/shoko-icon.css");
 @import url("https://cdn.jsdelivr.net/gh/Arlind-dev/jellyfin-icon-metadata@my-instance/public-icon.css");
 
-/* Ultrachromic Theme Start */
+/* Theme */
+@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/scyfin-theme.css');
+@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/disable-static-drawer.css');
 
-/* Recommended */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fixes.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/jf_font.css');
-
-/* Required */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/base.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/accentlist.css');
-
-/* Rounding */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/rounding.css');
-
-/* Smaller cast list */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/smallercast.css');
-
-/* Transparent top bar */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/header/header_transparent.css');
-
-/* Login screen */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/login/login_frame.css');
-
-/* Input fields */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fields/fields_noborder.css');
-
-/* Watched/Unwatched indicators */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/cornerindicator/indicator_corner.css');
-
-/* Colorful theme */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/colorful.css');
-
-/* Series Title page */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_simple.css');
-
-/* Progress bar */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/overlayprogress.css');
-
-/* Effects */
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/hoverglow.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/glassy.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/pan-animation.css');
-@import url('https://ctalvio.github.io/Monochromic/backdrop-hack_style.css');
-
-/* Style backdrop */
-.backdropImage {filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);}
-
-/* Login background */
-#loginPage {
-  background: none !important; /* Removes the image */
-}
-
-/*A ccent and rounding */
-:root {--accent: 98, 121, 205;}
-:root {--rounding: 12px;}
-
-/* Ultrachromic Theme end */
 /* Hide Favorites tab */
 .btnUserRating {
   display: none;
