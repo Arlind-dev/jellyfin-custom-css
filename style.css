@@ -34,3 +34,36 @@ div.starRatingContainer {
 #indexPage .section0 .cardText {
   display: none;
 }
+
+/* series detailPage alignment */
+.layout-desktop .detailPageContent > div:not(.detailPagePrimaryContent) {
+    padding-left: 20.4vw !important;
+}
+
+.layout-desktop .detailPageWrapperContainer:has(.detailImageContainer .portraitCard) .detailPagePrimaryContent{
+  min-height: auto !important;
+}
+
+.layout-desktop .detailPageWrapperContainer:has(.detailImageContainer .squareCard) .detailPagePrimaryContent{
+  min-height: auto !important;
+}
+
+.layout-desktop .detailPageWrapperContainer:has(.detailImageContainer .backdropCard) .detailPagePrimaryContent{
+  min-height: auto !important;
+}
+
+/* remove homepage home button */
+.skinHeader {
+  contain: none;
+}
+.noHomeButtonHeader button[data-index="0"] {
+  display: none;
+}
+
+.backdropImageFadeIn {
+  animation: backdrop-fadein .0s ease-in normal both;
+}
+
+#indexPage {
+    background-color: #101010;
+}
