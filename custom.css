@@ -67,3 +67,10 @@ div.starRatingContainer {
 #indexPage {
     background-color: #101010;
 }
+
+.headerTop {
+  padding-left: 3.3%;
+}
+.headerRight {
+  margin-right: 3.3%;
+}
