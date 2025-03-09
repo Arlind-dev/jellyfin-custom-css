@@ -68,9 +68,13 @@ div.starRatingContainer {
     background-color: #101010;
 }
 
-.headerTop {
-  padding-left: 3.3%;
+.headerTop:not(.libraryDocument:has(.videoPlayerContainer) .headerTop) {
+  padding-left: 3.3% !important;
 }
-.headerRight {
-  margin-right: 3.3%;
+.headerRight:not(.libraryDocument:has(.videoPlayerContainer) .headerRight) {
+  margin-right: 3.3% !important;
+}
+
+#homeTab {
+  background-color: #101010;
 }
